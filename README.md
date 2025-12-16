@@ -174,10 +174,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🎲 Fun Facts
 
 - Tic-Tac-Toe is also known as "Noughts and Crosses" in the UK
-- The game has been around for thousands of years
+- The game has ancient origins with similar games dating back centuries
 - A perfect game by both players always results in a draw
-- There are 255,168 possible game positions
-- There are 26,830 possible games after removing symmetry
+- There are 255,168 possible ways a game can be played (considering turn order)
+- After accounting for symmetry, there are 26,830 unique possible games
 
 ---
 

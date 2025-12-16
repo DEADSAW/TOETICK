@@ -73,7 +73,7 @@ body {
 
 /* Cancelable cell cursor */
 .cell.cancelable {
-    cursor: not-allowed;
+    cursor: pointer;
 }
 
 .cell.cancelable::after {

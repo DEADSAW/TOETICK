@@ -103,6 +103,9 @@ function canCancel() {
 // ========================================
 
 function performCancel(index) {
+    // Set animating flag to prevent clicks during animation
+    isAnimating = true;
+    
     // Remove the opponent's mark
     board[index] = null;
     
@@ -116,6 +119,7 @@ function performCancel(index) {
     setTimeout(() => {
         cell.classList.remove('canceling');
         updateBoard();
+        isAnimating = false;
     }, 400);
 }
 
@@ -124,6 +128,9 @@ function performCancel(index) {
 // ========================================
 
 function performPlace(index) {
+    // Set animating flag to prevent clicks during animation
+    isAnimating = true;
+    
     // Place current player's mark
     board[index] = currentPlayer;
     
@@ -136,6 +143,7 @@ function performPlace(index) {
     
     setTimeout(() => {
         cell.classList.remove('placing');
+        isAnimating = false;
     }, 300);
     
     updateBoard();

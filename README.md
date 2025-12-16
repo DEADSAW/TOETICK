@@ -114,12 +114,23 @@ Potential technologies that could be used:
 *Screenshots and demo GIFs will be added here*
 
 ### Main Game Board
+
+Example in-progress game:
 ```
  X | O | X
 -----------
  O | X | O
 -----------
+   | X |  
+```
+
+Example winning position (X wins with diagonal):
+```
+ X | O | O
+-----------
  O | X | X
+-----------
+   |   | X
 ```
 
 ## 🤝 Contributing

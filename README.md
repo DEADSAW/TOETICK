@@ -58,8 +58,6 @@ TOETICK is a digital implementation of the classic Tic-Tac-Toe game (also known 
 ### Prerequisites
 
 - A modern web browser (Chrome, Firefox, Safari, Edge)
-- OR Node.js (if it's a Node.js application)
-- OR Python (if it's a Python application)
 
 ### Steps
 
@@ -73,10 +71,11 @@ TOETICK is a digital implementation of the classic Tic-Tac-Toe game (also known 
    cd TOETICK
    ```
 
-3. Open the game:
-   - For web-based version: Open `index.html` in your browser
-   - For Node.js version: Run `npm install` then `npm start`
-   - For Python version: Run `pip install -r requirements.txt` then `python main.py`
+3. Run the game:
+   ```bash
+   # Instructions will be added once the game is implemented
+   # Could be: open index.html, npm start, python main.py, etc.
+   ```
 
 ## 💻 Usage
 
@@ -89,8 +88,8 @@ git clone https://github.com/DEADSAW/TOETICK.git
 # Navigate to directory
 cd TOETICK
 
-# Run the game (method depends on implementation)
-# See installation instructions above
+# Run the game
+# Specific instructions will be added once implemented
 ```
 
 ### Game Controls
@@ -101,11 +100,14 @@ cd TOETICK
 
 ## 🛠️ Technology Stack
 
+*Technology stack details will be added once the game is implemented*
+
+Potential technologies that could be used:
 - **Frontend**: HTML5, CSS3, JavaScript (or React/Vue/Angular)
-- **Backend**: Node.js / Python / Java (if applicable)
-- **AI Algorithm**: Minimax algorithm for computer opponent (if applicable)
+- **Backend**: Node.js / Python / Java (if needed)
+- **AI Algorithm**: Minimax algorithm for computer opponent
 - **Styling**: CSS3 / Tailwind / Bootstrap
-- **Testing**: Jest / Mocha / PyTest (if applicable)
+- **Testing**: Jest / Mocha / PyTest
 
 ## 📸 Screenshots
 
